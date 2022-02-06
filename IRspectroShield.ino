@@ -22,7 +22,7 @@ void loop() {
   Serial.print(sensorValue);
   Serial.print("\n");
 
-  // wait 2 milliseconds before the next loop for the analog-to-digital
+  // wait 30 milliseconds before the next loop for the analog-to-digital
   // converter to settle after the last reading:
   delay(30);
 }
